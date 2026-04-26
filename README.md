@@ -1,12 +1,77 @@
+<<<<<<< HEAD
 # 🏥 MediAgent — Telemedicine Prescreener
 
 A full-stack AI-powered telemedicine prescreening app built with React, Express, SQLite, and the Anthropic API.
 
 > ⚠️ **Disclaimer**: MediAgent is an AI prescreener only. It does not provide final diagnoses and cannot replace a licensed healthcare professional.
+=======
+# Mediagent
+ AI Telemedicine Chatbot with Prescription Scanner
+
+# 🏥 MediAgent – AI Telemedicine Platform
+
+MediAgent is an AI-powered telemedicine web application that helps users understand prescriptions, chat with an AI doctor, and get basic health guidance.
+
+---
+
+## 🚀 Features
+
+### 🤖 AI Doctor Chatbot
+- Chat with an AI medical assistant
+- Provides:
+  - Possible disease
+  - Risk level
+  - Medicines (basic suggestions)
+  - Advice & precautions
+  - Food to avoid
+
+---
+
+### 📄 Prescription Scanner
+- Upload prescription image
+- OCR extracts text
+- AI explains:
+  - Medicines
+  - Dosage
+  - Usage instructions
+
+---
+
+### 🔐 Authentication
+- Firebase Authentication
+- Email & Password login
+- Google login
+
+---
+
+### 💬 Chat System
+- Session-based chat
+- Stores conversation history (optional)
+- Quick replies (future feature)
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React (Vite)
+- CSS (Custom UI)
+- React Router
+
+### Backend
+- Node.js
+- Express.js
+- Gemini API (Google Generative AI)
+
+### Other Tools
+- Tesseract.js (OCR)
+- Firebase (Auth)
+>>>>>>> eb186c3af1e9ff13f00ecb65cdae892df753f565
 
 ---
 
 ## 📁 Project Structure
+<<<<<<< HEAD
 
 ```
 Telemedicine/
@@ -112,3 +177,20 @@ The app will open at `http://localhost:5173`
 - Doctor Dashboard to review and approve triage notes
 - Image uploads for rashes/wounds (Gemini vision)
 - Native audio streaming for real-time voice consultation
+=======
+MediAgent/
+│
+├── frontend/
+│ ├── src/
+│ │ ├── pages/
+│ │ ├── components/
+│ │ ├── api.js
+│ │ └── firebase.js
+│
+├── backend/
+│ ├── routes/
+│ │ ├── chat.js
+│ │ └── sessions.js
+│ ├── server.js
+│ └── db.js
+>>>>>>> eb186c3af1e9ff13f00ecb65cdae892df753f565

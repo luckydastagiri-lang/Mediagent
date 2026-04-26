@@ -121,7 +121,7 @@ export default function App() {
     recog.interimResults = false;
     setVoiceActive(true);
     recog.onresult = (e) => {
-      const transcript = e.results[0][0].transcript;
+      const [[{ transcript }]] = e.results;
       handleSend(transcript);
     };
     recog.onend = () => setVoiceActive(false);
