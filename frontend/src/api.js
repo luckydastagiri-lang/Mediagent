@@ -1,4 +1,4 @@
-const BASE = "https://mediagent-cziu.onrender.com/api";
+const BASE = "http://localhost:5000/api";
 
 // ================= SESSIONS =================
 
