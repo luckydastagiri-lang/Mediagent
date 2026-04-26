@@ -1,0 +1,22 @@
+{
+  "name": "mediagent-backend",
+  "version": "1.0.0",
+  "description": "MediAgent Telemedicine Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^5.0.0",
+    "node-fetch": "^3.3.2",
+    "sqlite3": "^5.1.7",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
